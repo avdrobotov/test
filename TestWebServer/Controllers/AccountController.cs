@@ -24,8 +24,10 @@ namespace TestWebServer.Controllers
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
+            #region MMM
             UserManager = userManager;
             SignInManager = signInManager;
+            #region MMM
         }
 
         public ApplicationSignInManager SignInManager
